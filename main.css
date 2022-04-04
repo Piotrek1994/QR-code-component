@@ -1,0 +1,50 @@
+html {
+	background-color: #d5e1ef;
+}
+
+.qr__code__card {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 230px;
+	height: 380px;
+	border-radius: 15px;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+}
+
+.qr__code-img {
+	position: relative;
+	left: 50%;
+	top: 50%;
+	width: 210px;
+	height: 210px;
+    border-radius: 15px;
+	transform: translate(-50%, 5%);
+}
+
+
+.qr__headline {
+    position: relative;
+    padding: 25px 10px 7px;
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Outfit', sans-serif;
+}
+
+.qr__info {
+    position: relative;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.qr__info p {
+    margin: 0;
+}
+.qr__headline p {
+    margin: 0;
+}
